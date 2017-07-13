@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def tester(passer):
+def tester(request, passer):
     return HttpResponse("Hello world! You have reached the tester polls page at " + passer)
